@@ -1,5 +1,5 @@
 # Watson-Assistant - Virtual-Agent
-# Título del Proyecto
+
 
 _A continuación se hablará sobre WatsonAssistent_
 
