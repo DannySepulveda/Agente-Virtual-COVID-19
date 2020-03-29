@@ -1,13 +1,12 @@
 # Watson-Assistant - Virtual-Agent
 
+Watson assistant es un bot cognitivo que puede ser personalizado para adaptase a sus necesidades empresariales, el asistente direcciona las consultas de sus clientes a un conocimiento, lo que proporciona la respuesta adecuada. Los conocimientos de diálogo devuelven respuestas que son creadas por el usuario para proporcionar información sobre los temas o tareas sobre los que los usuarios realizan preguntas y sobre cómo preguntan sobre las mismas y el producto crea de forma dinámica un modelo de aprendizaje automático que se adapta para comprender las mismas solicitudes de usuario y otras similares.
 
-_A continuación se hablará sobre WatsonAssistent_
+Watson assistant es un bot alojado completamente que está gestionado por IBM Cloud, lo que significa que no tiene que preocuparse por configurar o mantener la infraestructura para darle soporte.
 
 ## 1. Conceptos Básicos 📋 
-
-_A continuación se explica los conceptos necesarios para realizar un WatsonAssitent_
-
-
+### Dialog skill
+un dilog skill es el nucleo del asistente virtual, es alimentado por tres componentes principales que junto con entrenamiento de conocimiento de busqueda dá respuestas personalizadas a las variaciones de preguntas del consumidor, está compuesto por intenciones, entidades y nodos de dialogo.
 
 ## 2.¿Como desarrollar un WatsonAssitent con IBM? 🚀
 
