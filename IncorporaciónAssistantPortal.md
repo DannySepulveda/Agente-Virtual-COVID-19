@@ -49,7 +49,7 @@ _Se uso IBM Cloud para utilizar el servicios de watson-assisten que nos proporci
 ## Mas información 📖
 Puede hacer uso de esto u otros servicios en la nube  [IBM-CLOUD](https://www.ibm.com/co-es/cloud)
 
-Todo lo que debe saber sobre Watson Assistant  [Watson Assistant](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/WatsonAssistant.md)
+Todo lo que debe saber sobre Watson Assistant  [Watson Assistant](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/README.md)
 
 Incorpore el Watson Assitant en facebook [IncorporaciónFacebook](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/AsssistanIntegracionFacebook.md)
 
