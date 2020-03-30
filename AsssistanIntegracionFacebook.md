@@ -1,8 +1,8 @@
 # Watson Assistant - Incorporación Facebook
 
-Un watson assistant puede incorporación facebook.
+Un Watson Assistant puede incorporación Facebook.
 
-## 1. Incorporación de un assistant 🚀
+## 1. Incorporación de un Assistant 🚀
 
 1.1 Ingresar al servicio de Watson Assistant en IBM Cloud
 
@@ -12,11 +12,11 @@ Un watson assistant puede incorporación facebook.
 
 <img width="444" alt="assistant" src="https://user-images.githubusercontent.com/44415995/77942483-46a83d80-7281-11ea-875b-c20870c59d9e.PNG">
 
-1.3 Una vez seleccionado, en la nueva vista, en la sección Integrations que se encuentra a la derecha, se da click en “Add integrations”
+1.3 Una vez seleccionado, en la nueva vista, en la sección Integrations que se encuentra a la derecha, se da clic en “Add integrations”
 
 <img width="444" alt="assistant" src="https://user-images.githubusercontent.com/44415995/77942781-c504df80-7281-11ea-87ec-af9048c50aaf.png">
 
-1.4 En la nueva vista, escogeremos Facebook messenger
+1.4 En la nueva vista, escogeremos Facebook Messenger
 <img width="444" alt="assistant" src="https://user-images.githubusercontent.com/44415995/77958568-d9a1a180-729a-11ea-98a7-ab21877176de.png">
 
 1.5 Solo queda seguir el paso a paso que nos proporciona IBM Cloud.
@@ -32,14 +32,14 @@ Un watson assistant puede incorporación facebook.
 
 
 ## Construido con 🛠️
-_Se uso IBM Cloud para utilizar el servicios de watson-assisten que nos proporciono las herramientas necesarias para crear el chat-bot_
+_Se uso IBM Cloud para utilizar los servicios de Watson Assisten que nos proporcionó las herramientas necesarias para crear el chat-bot_
 * [IBM](https://www.ibm.com/cloud/watson-assistant/) - El servicio
 
 
 ## Mas información 📖
-Puede hacer uso de esto u otros servicios en la nube  [IBM-CLOUD](https://www.ibm.com/co-es/cloud)
+Puede hacer uso de esto u otros servicios en la nube [IBM-CLOUD](https://www.ibm.com/co-es/cloud)
 
-Todo lo que debe saber sobre Watson Assistant  [Watson Assistant](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/README.md)
+Todo lo que debe saber sobre Watson Assistant [Watson Assistant](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/README.md)
 
 Es posible incorporar el Watson Assitant en un portal web [IncorporaciónPortal](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/Incorporaci%C3%B3nAssistantPortal.md)
 
