@@ -136,7 +136,7 @@ Puede hacer uso de esto u otros servicios en la nube  [IBM-CLOUD](https://www.ib
 
 Es posible incorporar el Watson Assitant en un portal web [IncorporaciónPortal](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/Incorporaci%C3%B3nAssistantPortal.md)
 
-Incorpore el Watson Assitant en facebook [IncorporaciónFacebook](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/Incorporaci%C3%B3nAssistant.md)
+Incorpore el Watson Assitant en facebook [IncorporaciónFacebook](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/AsssistanIntegracionFacebook.md)
 
 ## Autores ✒️
 * **IBM** - *Equipo IBM Cloud*
