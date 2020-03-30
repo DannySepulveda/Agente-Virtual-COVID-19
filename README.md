@@ -1,8 +1,8 @@
 # Watson Assistant - Virtual Agent
 
-Watson assistant es un bot cognitivo que puede ser personalizado para adaptase a sus necesidades empresariales, el asistente direcciona las consultas de sus clientes a un conocimiento, lo que proporciona la respuesta adecuada. Los conocimientos de diálogo devuelven respuestas que son creadas por el usuario para proporcionar información sobre los temas o tareas sobre los que los usuarios realizan preguntas y sobre cómo preguntan sobre las mismas y el producto crea de forma dinámica un modelo de aprendizaje automático que se adapta para comprender las mismas solicitudes de usuario y otras similares.
+Watson Assistant es un bot cognitivo que puede ser personalizado para adaptase a sus necesidades empresariales, el asistente direcciona las consultas de sus clientes a un conocimiento, lo que proporciona la respuesta adecuada. Los conocimientos de diálogo devuelven respuestas que son creadas por el usuario para proporcionar información sobre los temas o tareas sobre los que los usuarios realizan preguntas y sobre cómo preguntan sobre las mismas y el producto crea de forma dinámica un modelo de aprendizaje automático que se adapta para comprender las mismas solicitudes de usuario y otras similares.
 
-Watson assistant es un bot alojado completamente que está gestionado por IBM Cloud, lo que significa que no tiene que preocuparse por configurar o mantener la infraestructura para darle soporte.
+Watson Assistant es un bot alojado completamente que está gestionado por IBM Cloud, lo que significa que no tiene que preocuparse por configurar o mantener la infraestructura para darle soporte.
 
 ## 1. Conceptos Básicos 📋 
 ### Dialog skill
@@ -30,7 +30,7 @@ Mas información en:
 https://cloud.ibm.com/docs/assistant?topic=assistant-skills
 https://cloud.ibm.com/docs/services/assistant-icp?topic=assistant-private-getting-started
 
-## 2.Desarrollo de un Watson Assistant por medio de IBM CLOUD 🚀
+## 2. Desarrollo de un Watson Assistant por medio de IBM CLOUD 🚀
 
 ### Caso de uso 
 
@@ -50,13 +50,13 @@ En la sección de catálogo buscamos Watson Assistant y se selecciona dicho serv
 
 ### Paso 3:
 
-Para crear el servicio de Watson Assistant, primero se debe seleccionar la región, en este caso se seleccionó Dallas y posteriormente selecciona el tipo de plan que más se acomode a sus necesidades. Una vez realizado esto se le asigna un nombre al servicio y se le da click a la opción de “Create” o “Crear”.
+Para crear el servicio de Watson Assistant, primero se debe seleccionar la región, en este caso se seleccionó Dallas y posteriormente selecciona el tipo de plan que más se acomode a sus necesidades. Una vez realizado esto se le asigna un nombre al servicio y se le da clic a la opción de “Create” o “Crear”.
 
 ![2](https://user-images.githubusercontent.com/44415995/77944449-a05e3700-7284-11ea-86d0-e6d81c49dc90.jpg)
 
 ### Paso 4:
 
-En la ventana que se cargó se le da click a “Launch Watson Assistant” o “Iniciar Launch Watson Assistant” y se abrirá una nueva ventana.
+En la ventana que se cargó se le da clic a “Launch Watson Assistant” o “Iniciar Launch Watson Assistant” y se abrirá una nueva ventana.
 
 ![3](https://user-images.githubusercontent.com/44415995/77944487-b1a74380-7284-11ea-867e-8de6afa46216.jpg)
 
@@ -78,7 +78,7 @@ El siguiente paso a seguir es entrenar el modelo, primero se comienza con los �
 
 ![6](https://user-images.githubusercontent.com/44415995/77944644-eb784a00-7284-11ea-9ebf-da5e6f6b287e.jpg)
 
-Por ejemplo el “Intent” de “Aislamiento_preventivo”, donde algunos de los ejemplos utilizados para entrenarlos fueron “¿Qué debe hacer la gente en casa cuando está en aislamiento?, como disminuir la probabilidad de adquirir la enfermedad?, que debo hacer en mi casa para que no me de COVID19”. Hay que tener en cuenta que entre más ejemplos se utilicen por “Intent” para entrenar el modelo, este será más preciso.
+Por ejemplo, el “Intent” de “Aislamiento preventivo”, donde algunos de los ejemplos utilizados para entrenarlos fueron “¿Qué debe hacer la gente en casa cuando está en aislamiento?, como disminuir la probabilidad de adquirir la enfermedad?, que debo hacer en mi casa para que no me de COVID19”. Hay que tener en cuenta que entre más ejemplos se utilicen por “Intent” para entrenar el modelo, este será más preciso.
 
 ![7](https://user-images.githubusercontent.com/44415995/77944671-f9c66600-7284-11ea-92f4-90442d08e146.jpg)
 
@@ -96,7 +96,7 @@ Ahora se procede a añadir los diálogos, para ello se debe seleccionar “Add n
 
 ![10](https://user-images.githubusercontent.com/44415995/77944806-31351280-7285-11ea-805a-a3d361b6be75.jpg)
 
-### Nota: Para este chatbot los diálogos se desligan del nodo principal “Preguntas para resolver” por lo que se añadieron “Child node” a partir de ese nodo, al dar click en los 3 puntos.
+### Nota: Para este chatbot los diálogos se desligan del nodo principal “Preguntas para resolver” por lo que se añadieron “Child node” a partir de ese nodo, al dar clic en los 3 puntos.
 
 ![11](https://user-images.githubusercontent.com/44415995/77944837-3eea9800-7285-11ea-9933-8523e71b3365.jpg)
 
@@ -106,37 +106,37 @@ Al momento de ingresar el dialogo en la parte inferior en el apartado de “Then
 
 ### Paso 10:
 
-El modelo se entrena automáticamente, una vez finalizado este proceso lo puede probar dando click en “Try it” con el siguiente icono ![Icono2](https://user-images.githubusercontent.com/44415995/77944935-65a8ce80-7285-11ea-9d3d-e91035e40b7b.jpg)
+El modelo se entrena automáticamente, una vez finalizado este proceso lo puede probar dando clic en “Try it” con el siguiente icono ![Icono2](https://user-images.githubusercontent.com/44415995/77944935-65a8ce80-7285-11ea-9d3d-e91035e40b7b.jpg)
 
 ![13](https://user-images.githubusercontent.com/44415995/77944892-50cc3b00-7285-11ea-8c76-4ddcc5f151c6.jpg)
 
 ## 3. Conservar el Watson Assistant 🔧
 
-Para que tu WatsonAssisten se mantenga siendo funcional es recomendable:
+Para que tu Watson Assistant se mantenga siendo funcional es recomendable:
 
 ### 2.1 Actualiza los intentes:
-Siempre que sea posible crear nuevas entidades o elimina las que los usuarios realmente no esten utilizando.
-### 2.2 Escribe diferentas formas de un mismo mensaje:
+Siempre que sea posible crear nuevas entidades o elimina las que los usuarios realmente no estén utilizando.
+### 2.2 Escribe diferentes formas de un mismo mensaje:
 Los usuarios pueden preguntar de diferentes formas es por eso que es necesario que una sola pregunta tenga varias versiones.
 ### 2.3 Guía a los usuarios a través de la conversación:
-Para que los usuarios tengan una buena experencia y deseen seguir usando en assistant es necesario que se guien desde el principio hasta el final de la conversación.
+Para que los usuarios tengan una buena experiencia y deseen seguir usando en Assistant es necesario que se guíen desde el principio hasta el final de la conversación.
 ### 2.4 Cuida el flujo de la conversación:
-Cada interación deben conducir a la siguiente que ya fue definida. Es conveniente que la conversación este guionizada para que los usuarios solo tengan que seguir el guion creado.
-### 2.5 Asegurece que su interfaz conversación este siempre actualizada:
-watson assistant esta diseñado para simular una conversación, pero se recomienda no solo usar textos sino que por medio de IBM también se puede enriquecer con imágenes, botones, etc.
+Cada interacción debe conducir a la siguiente que ya fue definida. Es conveniente que la conversación este guionizada para que los usuarios solo tengan que seguir el guion creado.
+### 2.5 Asegúrese que su interfaz conversación este siempre actualizada:
+Watson Assistant está diseñado para simular una conversación, pero se recomienda no solo usar textos, sino que por medio de IBM también se puede enriquecer con imágenes, botones, etc.
 
 
 ## Construido con 🛠️
-_Se uso IBM Cloud para utilizar el servicios de watson-assisten que nos proporciono las herramientas necesarias para crear el chat-bot_
+_Se uso IBM Cloud para utilizar los servicios de Watson Assistant que nos proporcionó las herramientas necesarias para crear el chat-bot_
 * [IBM](https://www.ibm.com/cloud/watson-assistant/) - El servicio
 
 
 ## Mas información 📖
-Puede hacer uso de esto u otros servicios en la nube  [IBM-CLOUD](https://www.ibm.com/co-es/cloud)
+Puede hacer uso de esto u otros servicios en la nube [IBM-CLOUD](https://www.ibm.com/co-es/cloud)
 
-Es posible incorporar el Watson Assitant en un portal web [IncorporaciónPortal](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/Incorporaci%C3%B3nAssistantPortal.md)
+Es posible incorporar Watson Assitant en un portal web [IncorporaciónPortal](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/Incorporaci%C3%B3nAssistantPortal.md)
 
-Incorpore el Watson Assitant en facebook [IncorporaciónFacebook](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/AsssistanIntegracionFacebook.md)
+Incorpore Watson Assitant en Facebook [IncorporaciónFacebook](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/AsssistanIntegracionFacebook.md)
 
 ## Autores ✒️
 * **IBM** - *Equipo IBM Cloud*
