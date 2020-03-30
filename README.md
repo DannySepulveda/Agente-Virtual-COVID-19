@@ -29,9 +29,8 @@ Puede entrenar el dialog skill para reconocer sus entidades proporcionando valor
 Mas información en: 
 https://cloud.ibm.com/docs/assistant?topic=assistant-skills
 https://cloud.ibm.com/docs/services/assistant-icp?topic=assistant-private-getting-started
-## 2.¿Como desarrollar un WatsonAssitent con IBM? 🚀
 
-
+## 2.Desarrollo de un Watson Assistant por medio de IBM CLOUD 🚀
 
  es algo que siempre debes tener en cuenta cuando piensas en cómo proporcionar la mejor experiencia conversacional
 
@@ -42,7 +41,7 @@ Da un ejemplo
 ```
 
 
-## 3.¿Como mantener un WastsonAssisten? 🔧
+## 3. Conservar el Watson Assistant 🔧
 
 Para que tu WatsonAssisten se mantenga siendo funcional es recomendable:
 
@@ -51,7 +50,7 @@ Siempre que sea posible crear nuevas entidades o elimina las que los usuarios re
 ### 2.2 Escribe diferentas formas de un mismo mensaje:
 Los usuarios pueden preguntar de diferentes formas es por eso que es necesario que una sola pregunta tenga varias versiones.
 ### 2.3 Guía a los usuarios a través de la conversación:
-Para que los usuarios tengan una buena experencia y deseen seguir usando en chat es necesario que se guien desde el principio hasta el final de la conversación.
+Para que los usuarios tengan una buena experencia y deseen seguir usando en assistant es necesario que se guien desde el principio hasta el final de la conversación.
 ### 2.4 Cuida el flujo de la conversación:
 Cada interación deben conducir a la siguiente que ya fue definida. Es conveniente que la conversación este guionizada para que los usuarios solo tengan que seguir el guion creado.
 ### 2.5 Asegurece que su interfaz conversación este siempre actualizada:
