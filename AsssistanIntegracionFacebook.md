@@ -39,7 +39,7 @@ _Se uso IBM Cloud para utilizar el servicios de watson-assisten que nos proporci
 ## Mas información 📖
 Puede hacer uso de esto u otros servicios en la nube  [IBM-CLOUD](https://www.ibm.com/co-es/cloud)
 
-Todo lo que debe saber sobre Watson Assistant  [Watson Assistant](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/WatsonAssistant.md)
+Todo lo que debe saber sobre Watson Assistant  [Watson Assistant](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/README.md)
 
 Es posible incorporar el Watson Assitant en un portal web [IncorporaciónPortal](https://github.com/emeloibmco/Agente-Virtual-COVID-19/blob/master/Incorporaci%C3%B3nAssistantPortal.md)
 
