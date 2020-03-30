@@ -48,16 +48,67 @@ En la sección de catálogo buscamos Watson Assistant y se selecciona dicho serv
 
 ![1](https://user-images.githubusercontent.com/44415995/77944254-3d6ca000-7284-11ea-8760-ffb4c6dc5682.jpg)
 
-
-
 ### Paso 3:
+
+Para crear el servicio de Watson Assistant, primero se debe seleccionar la región, en este caso se seleccionó Dallas y posteriormente selecciona el tipo de plan que más se acomode a sus necesidades. Una vez realizado esto se le asigna un nombre al servicio y se le da click a la opción de “Create” o “Crear”.
+
+![2](https://user-images.githubusercontent.com/44415995/77944449-a05e3700-7284-11ea-86d0-e6d81c49dc90.jpg)
+
 ### Paso 4:
+
+En la ventana que se cargó se le da click a “Launch Watson Assistant” o “Iniciar Launch Watson Assistant” y se abrirá una nueva ventana.
+
+![3](https://user-images.githubusercontent.com/44415995/77944487-b1a74380-7284-11ea-867e-8de6afa46216.jpg)
+
 ### Paso 5:
+
+Ahora se selecciona la opción de “Skill” la cual tiene este icono ![Icono1](https://user-images.githubusercontent.com/44415995/77944907-5c1f6680-7285-11ea-9ec6-8ebc41320025.jpg) y se selecciona “Create Skill” o “Crear skill”, luego se selecciona “Dialog Skill” y “Next” o “Siguiente”.
+
+![4](https://user-images.githubusercontent.com/44415995/77944530-be2b9c00-7284-11ea-9ce7-145f3eb13d55.jpg)
+
 ### Paso 6:
+
+Ahora se procede a configurar el modelo donde es importante asignarle un nombre y el idioma en el que se va a implementar el chatbot en este caso español.
+
+![5](https://user-images.githubusercontent.com/44415995/77944551-c5eb4080-7284-11ea-9333-79afde5f6fb7.jpg)
+
 ### Paso 7:
+
+El siguiente paso a seguir es entrenar el modelo, primero se comienza con los “intent” o “intenciones”, este entrena al asistente para comprender la variedad de formas en que los usuarios expresan una idea o inquietud. Para ello se selecciona “Create intent” y se le asigna un nombre a la intención y los ejemplos para entrenar el modelo.
+
+![6](https://user-images.githubusercontent.com/44415995/77944644-eb784a00-7284-11ea-9ebf-da5e6f6b287e.jpg)
+
+Por ejemplo el “Intent” de “Aislamiento_preventivo”, donde algunos de los ejemplos utilizados para entrenarlos fueron “¿Qué debe hacer la gente en casa cuando está en aislamiento?, como disminuir la probabilidad de adquirir la enfermedad?, que debo hacer en mi casa para que no me de COVID19”. Hay que tener en cuenta que entre más ejemplos se utilicen por “Intent” para entrenar el modelo, este será más preciso.
+
+![7](https://user-images.githubusercontent.com/44415995/77944671-f9c66600-7284-11ea-92f4-90442d08e146.jpg)
+
 ### Paso 8:
+
+Una vez ingresados los “Entity”, se ingresan las entidades los cuales son sustantivos o palabras clave, para ello se selecciona “Create entity” donde se le asigna un nombre y los sustantivos. Para este modelo se añadieron departamentos y municipios.
+
+![8](https://user-images.githubusercontent.com/44415995/77944691-034fce00-7285-11ea-9694-72aa926c6822.jpg)
+
+![9](https://user-images.githubusercontent.com/44415995/77944721-0fd42680-7285-11ea-9c79-dc0049b13377.jpg)
+
 ### Paso 9:
+
+Ahora se procede a añadir los diálogos, para ello se debe seleccionar “Add node” o “Añadir nodo”. Posteriormente se le proporciona un nombre y selecciona ya sea un “Intent” o un “Entity” de los que fueron añadidos anteriormente y por último se procede a añadir el dialogo. 
+
+![10](https://user-images.githubusercontent.com/44415995/77944806-31351280-7285-11ea-805a-a3d361b6be75.jpg)
+
+## Nota: Para este chatbot los diálogos se desligan del nodo principal “Preguntas para resolver” por lo que se añadieron “Child node” a partir de ese nodo, al dar click en los 3 puntos.##
+
+![11](https://user-images.githubusercontent.com/44415995/77944837-3eea9800-7285-11ea-9933-8523e71b3365.jpg)
+
+Al momento de ingresar el dialogo en la parte inferior en el apartado de “Then assistant should”. Se selecciona “Jump to” y el nodo principal, en este caso “Mas opciones”
+
+![12](https://user-images.githubusercontent.com/44415995/77944868-47db6980-7285-11ea-97db-cfad5e21959e.jpg)
+
 ### Paso 10:
+
+El modelo se entrena automáticamente, una vez finalizado este proceso lo puede probar dando click en “Try it” con el siguiente icono ![Icono2](https://user-images.githubusercontent.com/44415995/77944935-65a8ce80-7285-11ea-9d3d-e91035e40b7b.jpg)
+
+![13](https://user-images.githubusercontent.com/44415995/77944892-50cc3b00-7285-11ea-8c76-4ddcc5f151c6.jpg)
 
 ## 3. Conservar el Watson Assistant 🔧
 
