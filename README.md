@@ -6,8 +6,29 @@ Watson assistant es un bot alojado completamente que está gestionado por IBM Cl
 
 ## 1. Conceptos Básicos 📋 
 ### Dialog skill
-un dilog skill es el nucleo del asistente virtual, es alimentado por tres componentes principales que junto con entrenamiento de conocimiento de busqueda dá respuestas personalizadas a las variaciones de preguntas del consumidor, está compuesto por intenciones, entidades y nodos de dialogo.
+Una Skill es un contenedor para la inteligencia artificial que le permite a un asistente ayudar a sus clientes.
 
+Un asistente dirige las solicitudes por el camino óptimo para resolver un problema del cliente. Agregue habilidades para que su asistente pueda proporcionar una respuesta directa a una pregunta común o hacer referencia a resultados de búsqueda más generalizados para algo más complejo
+Un dialog skill comprende las preguntas o solicitudes típicas de los usuarios y las responde o las cumple siguiendo un diálogo escrito por usted.
+
+### Itens
+Una intención representa el propósito de la entrada de un usuario, como una pregunta sobre ubicaciones de negocios o un pago de facturas. Usted define una intención para cada tipo de solicitud de usuario que desea que su aplicación admita. El nombre de una intención siempre tiene el prefijo del caracter ``` #```. Para entrenar la habilidad de diálogo para reconocer sus intenciones, usted proporciona muchos ejemplos de entrada del usuario e indica a qué intenciones se asignan.
+
+Se proporciona un catálogo de contenido que contiene intenciones comunes preconstruidas que puede agregar a su aplicación en lugar de crear la suya propia. Por ejemplo, la mayoría de las aplicaciones requieren una intención de saludo que inicia un diálogo con el usuario. Puede agregar el catálogo de contenido General para agregar una intención que salude al usuario y haga otras cosas útiles, como finalizar la conversación.
+
+### Dialogo
+Un diálogo es un flujo de conversación ramificado que define cómo responde su aplicación cuando reconoce las intenciones y entidades definidas. Utiliza el editor de diálogo para crear conversaciones con los usuarios, proporcionando respuestas basadas en las intenciones y entidades que reconoces en su entrada.
+
+Para permitir que su habilidad de diálogo maneje preguntas más matizadas, defina entidades y haga referencia a ellas desde su diálogo.
+
+### Entidades
+Una entidad representa un término u objeto que es relevante para sus intentos y que proporciona un contexto específico para un intento. Por ejemplo, una entidad podría representar una ciudad donde el usuario desea encontrar una ubicación comercial o el monto de un pago de facturas. El nombre de una entidad siempre tiene como prefijo el caracter ```@```.
+
+Puede entrenar el dialog skill para reconocer sus entidades proporcionando valores y sinónimos de términos de entidad, patrones de entidad o identificando el contexto en el que una entidad se usa típicamente en una oración. Para ajustar su diálogo, regrese y agregue nodos que verifiquen las menciones de la entidad en la entrada del usuario además de las intenciones.
+
+Mas información en: 
+```https://cloud.ibm.com/docs/assistant?topic=assistant-skills```
+```https://cloud.ibm.com/docs/services/assistant-icp?topic=assistant-private-getting-started```
 ## 2.¿Como desarrollar un WatsonAssitent con IBM? 🚀
 
 
