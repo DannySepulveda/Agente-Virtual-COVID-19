@@ -32,6 +32,9 @@ https://cloud.ibm.com/docs/services/assistant-icp?topic=assistant-private-gettin
 ## 2.¿Como desarrollar un WatsonAssitent con IBM? 🚀
 
 
+
+ es algo que siempre debes tener en cuenta cuando piensas en cómo proporcionar la mejor experiencia conversacional
+
 _Estas instrucciones te permitirán obtener un WatsonAssitent funcional._
 
 ```
@@ -41,30 +44,31 @@ Da un ejemplo
 
 ## 3.¿Como mantener un WastsonAssisten? 🔧
 
+Para que tu WatsonAssisten se mantenga siendo funcional es recomendable:
 
-## Despliegue 📦
+### 2.1 Actualiza los intentes:
+Siempre que sea posible crear nuevas entidades o elimina las que los usuarios realmente no esten utilizando.
+### 2.2 Escribe diferentas formas de un mismo mensaje:
+Los usuarios pueden preguntar de diferentes formas es por eso que es necesario que una sola pregunta tenga varias versiones.
+### 2.3 Guía a los usuarios a través de la conversación:
+Para que los usuarios tengan una buena experencia y deseen seguir usando en chat es necesario que se guien desde el principio hasta el final de la conversación.
+### 2.4 Cuida el flujo de la conversación:
+Cada interación deben conducir a la siguiente que ya fue definida. Es conveniente que la conversación este guionizada para que los usuarios solo tengan que seguir el guion creado.
+### 2.5 Asegurece que su interfaz conversación este siempre actualizada:
+watson assistant esta diseñado para simular una conversación, pero se recomienda no solo usar textos sino que por medio de IBM también se puede enriquecer con imágenes, botones, etc.
 
-_Puedo encontrar integraciones en_
 
 ## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [IBM](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
+_Se uso IBM Cloud para utilizar el servicios de watson-assisten que nos proporciono las herramientas necesarias para crear el chat-bot_
+* [IBM](https://www.ibm.com/cloud/watson-assistant/) - El servicio
 
 
-## Contribuyendo 🖇️
-
-Equipo IBM Cloud.
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
+## Mas información 📖
+Puede hacer uso de esto u otros servicios en la nube  [IBM-CLOUD](https://www.ibm.com/co-es/cloud)
 
 
 ## Autores ✒️
-
-* **IBM** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
+* **IBM** - *Equipo IBM Cloud*
 
 
 
