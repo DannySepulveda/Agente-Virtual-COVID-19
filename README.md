@@ -27,8 +27,8 @@ Una entidad representa un término u objeto que es relevante para sus intentos y
 Puede entrenar el dialog skill para reconocer sus entidades proporcionando valores y sinónimos de términos de entidad, patrones de entidad o identificando el contexto en el que una entidad se usa típicamente en una oración. Para ajustar su diálogo, regrese y agregue nodos que verifiquen las menciones de la entidad en la entrada del usuario además de las intenciones.
 
 Mas información en: 
-```https://cloud.ibm.com/docs/assistant?topic=assistant-skills```
-```https://cloud.ibm.com/docs/services/assistant-icp?topic=assistant-private-getting-started```
+https://cloud.ibm.com/docs/assistant?topic=assistant-skills
+https://cloud.ibm.com/docs/services/assistant-icp?topic=assistant-private-getting-started
 ## 2.¿Como desarrollar un WatsonAssitent con IBM? 🚀
 
 
