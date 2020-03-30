@@ -32,14 +32,32 @@ https://cloud.ibm.com/docs/services/assistant-icp?topic=assistant-private-gettin
 
 ## 2.Desarrollo de un Watson Assistant por medio de IBM CLOUD 🚀
 
- es algo que siempre debes tener en cuenta cuando piensas en cómo proporcionar la mejor experiencia conversacional
+### Caso de uso 
 
-_Estas instrucciones te permitirán obtener un WatsonAssitent funcional._
+Actualmente a nivel internacional se está presentando una pandemia ocasionada por el COVID-19, lo cual ha generado que las personas tengan muchas inquietudes las cuales no pueden aclarar tan fácilmente o de fuentes oficiales. Por esa razón se desarrolló un ChatBot con el fin de aclarar dichas dudas brindando información oficial con el fin de evitar que se cree pánico y desinformación. 
 
-```
-Da un ejemplo
-```
+### Paso a paso del desarrollo 
 
+### Paso 1:
+
+Iniciar sesión en IBM Cloud, en caso de que no se cuente con una cuenta, crearla en este enlace https://cloud.ibm.com/registration
+
+### Paso 2:
+
+En la sección de catálogo buscamos Watson Assistant y se selecciona dicho servicio 
+
+![1](https://user-images.githubusercontent.com/44415995/77944254-3d6ca000-7284-11ea-8760-ffb4c6dc5682.jpg)
+
+
+
+### Paso 3:
+### Paso 4:
+### Paso 5:
+### Paso 6:
+### Paso 7:
+### Paso 8:
+### Paso 9:
+### Paso 10:
 
 ## 3. Conservar el Watson Assistant 🔧
 
