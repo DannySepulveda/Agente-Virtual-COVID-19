@@ -96,7 +96,7 @@ Ahora se procede a añadir los diálogos, para ello se debe seleccionar “Add n
 
 ![10](https://user-images.githubusercontent.com/44415995/77944806-31351280-7285-11ea-805a-a3d361b6be75.jpg)
 
-## Nota: Para este chatbot los diálogos se desligan del nodo principal “Preguntas para resolver” por lo que se añadieron “Child node” a partir de ese nodo, al dar click en los 3 puntos.##
+### Nota: Para este chatbot los diálogos se desligan del nodo principal “Preguntas para resolver” por lo que se añadieron “Child node” a partir de ese nodo, al dar click en los 3 puntos.
 
 ![11](https://user-images.githubusercontent.com/44415995/77944837-3eea9800-7285-11ea-9933-8523e71b3365.jpg)
 
